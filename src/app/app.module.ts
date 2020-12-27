@@ -4,9 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { OperatorsComponent } from './operators/operators.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OperatorsComponent,
+    
   ],
   imports: [
     BrowserModule,

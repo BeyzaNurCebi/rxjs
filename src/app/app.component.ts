@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { of, interval } from "rxjs";
 
 @Component({
   selector: 'app-root',
@@ -9,7 +8,6 @@ import { of, interval } from "rxjs";
 export class AppComponent {
   title = 'rxjsLibrary';
 
-  constructor(){
-  }
+  constructor(){ }
 
 }
