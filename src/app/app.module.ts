@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 
 import { OperatorsComponent } from './operators/operators.component';
 import { OfComponent } from './operators/of/of.component';
+import { IntervalComponent } from './operators/interval/interval.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OperatorsComponent,
-    OfComponent
+    OfComponent,
+    IntervalComponent
   ],
   imports: [
     BrowserModule,
