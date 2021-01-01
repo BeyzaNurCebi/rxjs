@@ -9,6 +9,7 @@ import { OfComponent } from './operators/of/of.component';
 import { IntervalComponent } from './operators/interval/interval.component';
 import { TimerComponent } from './operators/timer/timer.component';
 import { RangeComponent } from './operators/range/range.component';
+import { FromComponent } from './operators/from/from.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { RangeComponent } from './operators/range/range.component';
     IntervalComponent,
     TimerComponent,
     RangeComponent,
+    FromComponent
   ],
   imports: [
     BrowserModule,
