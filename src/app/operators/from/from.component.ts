@@ -9,7 +9,7 @@ import { from } from "rxjs";
 export class FromComponent implements OnInit {
     constructor() { 
 
-    //From OPERATOR
+    //FROM OPERATOR
     /* içine verilen dizini observable nesneye döndürür. */
 
     const map = new Map();
