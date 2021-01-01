@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { OperatorsComponent } from './operators/operators.component';
 import { OfComponent } from './operators/of/of.component';
 import { IntervalComponent } from './operators/interval/interval.component';
+import { TimerComponent } from './operators/timer/timer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OperatorsComponent,
     OfComponent,
-    IntervalComponent
+    IntervalComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
