@@ -4,6 +4,7 @@ import { IntervalComponent } from './operators/interval/interval.component';
 import { OfComponent } from './operators/of/of.component';
 
 import { OperatorsComponent } from './operators/operators.component';
+import { RangeComponent } from './operators/range/range.component';
 import { TimerComponent } from './operators/timer/timer.component';
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: "operators",component: OperatorsComponent},
   {path: "of",component: OfComponent},
   {path: "interval",component: IntervalComponent},
-  {path: "timer",component: TimerComponent}
+  {path: "timer",component: TimerComponent},
+  {path: "range",component: RangeComponent}
 ];
 
 @NgModule({

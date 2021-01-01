@@ -9,6 +9,8 @@ import { timer } from 'rxjs';
 export class TimerComponent implements OnInit {
     subscription;
     constructor() { 
+
+      //TIMER OPERATOR
       /* bir metodun belirli milisaniye sonra çalışmasını istiyorsak kullanırız. 
       interval dan farkı bir kez çalışır. interval verdiğimiz süre içinde devamlı çalışır.
       */
