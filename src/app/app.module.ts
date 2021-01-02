@@ -5,12 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { OperatorsComponent } from './operators/operators.component';
-import { OfComponent } from './operators/of/of.component';
-import { IntervalComponent } from './operators/interval/interval.component';
-import { TimerComponent } from './operators/timer/timer.component';
-import { RangeComponent } from './operators/range/range.component';
-import { FromComponent } from './operators/from/from.component';
-import { DeferComponent } from './operators/defer/defer.component';
+import { OfComponent } from './operators/creation-operators/of/of.component';
+import { IntervalComponent } from './operators/creation-operators/interval/interval.component';
+import { TimerComponent } from './operators/creation-operators/timer/timer.component';
+import { RangeComponent } from './operators/creation-operators/range/range.component';
+import { FromComponent } from './operators/creation-operators/from/from.component';
+import { DeferComponent } from './operators/creation-operators/defer/defer.component';
+import { AjaxComponent } from './operators/creation-operators/ajax/ajax.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DeferComponent } from './operators/defer/defer.component';
     TimerComponent,
     RangeComponent,
     FromComponent,
-    DeferComponent
+    DeferComponent,
+    AjaxComponent
   ],
   imports: [
     BrowserModule,
