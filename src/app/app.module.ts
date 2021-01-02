@@ -12,6 +12,7 @@ import { RangeComponent } from './operators/creation-operators/range/range.compo
 import { FromComponent } from './operators/creation-operators/from/from.component';
 import { DeferComponent } from './operators/creation-operators/defer/defer.component';
 import { AjaxComponent } from './operators/creation-operators/ajax/ajax.component';
+import { CreateComponent } from './operators/creation-operators/create/create.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AjaxComponent } from './operators/creation-operators/ajax/ajax.componen
     RangeComponent,
     FromComponent,
     DeferComponent,
-    AjaxComponent
+    AjaxComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule,
