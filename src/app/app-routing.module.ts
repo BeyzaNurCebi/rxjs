@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { DeferComponent } from './operators/defer/defer.component';
 import { FromComponent } from './operators/from/from.component';
 import { IntervalComponent } from './operators/interval/interval.component';
 import { OfComponent } from './operators/of/of.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: "timer",component: TimerComponent},
   {path: "range",component: RangeComponent},
   {path: "from",component: FromComponent},
+  {path: "defer",component: DeferComponent},
 ];
 
 @NgModule({
