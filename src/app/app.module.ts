@@ -13,6 +13,7 @@ import { FromComponent } from './operators/creation-operators/from/from.componen
 import { DeferComponent } from './operators/creation-operators/defer/defer.component';
 import { AjaxComponent } from './operators/creation-operators/ajax/ajax.component';
 import { CreateComponent } from './operators/creation-operators/create/create.component';
+import { FromEventComponent } from './operators/creation-operators/fromEvent/fromEvent.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CreateComponent } from './operators/creation-operators/create/create.co
     FromComponent,
     DeferComponent,
     AjaxComponent,
-    CreateComponent
+    CreateComponent,
+    FromEventComponent
   ],
   imports: [
     BrowserModule,

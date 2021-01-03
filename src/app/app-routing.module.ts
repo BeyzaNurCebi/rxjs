@@ -10,6 +10,7 @@ import { RangeComponent } from './operators/creation-operators/range/range.compo
 import { TimerComponent } from './operators/creation-operators/timer/timer.component';
 import { AjaxComponent } from './operators/creation-operators/ajax/ajax.component';
 import { CreateComponent } from './operators/creation-operators/create/create.component';
+import { FromEventComponent } from './operators/creation-operators/fromEvent/fromEvent.component';
 
 const routes: Routes = [
   {path: "" ,redirectTo: "/operators",pathMatch: "full"},
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: "defer",component: DeferComponent},
   {path: "ajax",component: AjaxComponent},
   {path: "create",component: CreateComponent},
+  {path: "fromEvent",component: FromEventComponent},
 ];
 
 @NgModule({
