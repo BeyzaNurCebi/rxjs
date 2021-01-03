@@ -16,6 +16,7 @@ import { CreateComponent } from './operators/creation-operators/create/create.co
 import { FromEventComponent } from './operators/creation-operators/fromEvent/fromEvent.component';
 import { PipeFirstComponent } from "./operators/filtering-operators/pipe-first/pipe-first.component";
 import { FindComponent } from './operators/filtering-operators/find/find.component';
+import { FilterComponent } from './operators/filtering-operators/filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FindComponent } from './operators/filtering-operators/find/find.compone
     CreateComponent,
     FromEventComponent,
     PipeFirstComponent,
-    FindComponent
+    FindComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
