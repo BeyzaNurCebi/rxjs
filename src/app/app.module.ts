@@ -15,6 +15,7 @@ import { AjaxComponent } from './operators/creation-operators/ajax/ajax.componen
 import { CreateComponent } from './operators/creation-operators/create/create.component';
 import { FromEventComponent } from './operators/creation-operators/fromEvent/fromEvent.component';
 import { PipeFirstComponent } from "./operators/filtering-operators/pipe-first/pipe-first.component";
+import { FindComponent } from './operators/filtering-operators/find/find.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { PipeFirstComponent } from "./operators/filtering-operators/pipe-first/p
     AjaxComponent,
     CreateComponent,
     FromEventComponent,
-    PipeFirstComponent
+    PipeFirstComponent,
+    FindComponent
   ],
   imports: [
     BrowserModule,

@@ -12,6 +12,7 @@ import { AjaxComponent } from './operators/creation-operators/ajax/ajax.componen
 import { CreateComponent } from './operators/creation-operators/create/create.component';
 import { FromEventComponent } from './operators/creation-operators/fromEvent/fromEvent.component';
 import { PipeFirstComponent } from './operators/filtering-operators/pipe-first/pipe-first.component';
+import { FindComponent } from './operators/filtering-operators/find/find.component';
 
 const routes: Routes = [
   {path: "" ,redirectTo: "/operators",pathMatch: "full"},
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: "create",component: CreateComponent},
   {path: "fromEvent",component: FromEventComponent},
   {path: "pipe-first",component: PipeFirstComponent},
+  {path: "find",component: FindComponent},
 ];
 
 @NgModule({
