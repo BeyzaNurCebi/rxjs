@@ -11,6 +11,7 @@ import { TimerComponent } from './operators/creation-operators/timer/timer.compo
 import { AjaxComponent } from './operators/creation-operators/ajax/ajax.component';
 import { CreateComponent } from './operators/creation-operators/create/create.component';
 import { FromEventComponent } from './operators/creation-operators/fromEvent/fromEvent.component';
+import { PipeFirstComponent } from './operators/filtering-operators/pipe-first/pipe-first.component';
 
 const routes: Routes = [
   {path: "" ,redirectTo: "/operators",pathMatch: "full"},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: "ajax",component: AjaxComponent},
   {path: "create",component: CreateComponent},
   {path: "fromEvent",component: FromEventComponent},
+  {path: "pipe-first",component: PipeFirstComponent},
 ];
 
 @NgModule({

@@ -14,6 +14,7 @@ import { DeferComponent } from './operators/creation-operators/defer/defer.compo
 import { AjaxComponent } from './operators/creation-operators/ajax/ajax.component';
 import { CreateComponent } from './operators/creation-operators/create/create.component';
 import { FromEventComponent } from './operators/creation-operators/fromEvent/fromEvent.component';
+import { PipeFirstComponent } from "./operators/filtering-operators/pipe-first/pipe-first.component";
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FromEventComponent } from './operators/creation-operators/fromEvent/fro
     DeferComponent,
     AjaxComponent,
     CreateComponent,
-    FromEventComponent
+    FromEventComponent,
+    PipeFirstComponent
   ],
   imports: [
     BrowserModule,
