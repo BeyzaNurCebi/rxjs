@@ -23,6 +23,8 @@ export class PipeFirstComponent implements OnInit {
     olması lazım.
     */
 
+    //pipe ile en son işlenmiş veriyi elde ederiz.
+    
     const myArray = from([5,10,25,20,50,40,500])
 
     myArray.pipe(first(val=>val>5)).subscribe(data=>{
