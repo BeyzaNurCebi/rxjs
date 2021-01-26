@@ -15,6 +15,7 @@ import { PipeFirstComponent } from './operators/filtering-operators/pipe-first/p
 import { FindComponent } from './operators/filtering-operators/find/find.component';
 import { FilterComponent } from './operators/filtering-operators/filter/filter.component';
 import { MapComponent } from './operators/transformation-operator/map/map.component';
+import { SubjectComponent } from './operators/subjects-operators/subject/subject.component';
 
 const routes: Routes = [
   {path: "" ,redirectTo: "/operators",pathMatch: "full"},
@@ -32,6 +33,7 @@ const routes: Routes = [
   {path: "find",component: FindComponent},
   {path: "filter",component: FilterComponent},
   {path: "map",component: MapComponent},
+  {path: "subject",component: SubjectComponent},
 ];
 
 @NgModule({
