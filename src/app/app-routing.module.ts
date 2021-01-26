@@ -14,6 +14,7 @@ import { FromEventComponent } from './operators/creation-operators/fromEvent/fro
 import { PipeFirstComponent } from './operators/filtering-operators/pipe-first/pipe-first.component';
 import { FindComponent } from './operators/filtering-operators/find/find.component';
 import { FilterComponent } from './operators/filtering-operators/filter/filter.component';
+import { MapComponent } from './operators/transformation-operator/map/map.component';
 
 const routes: Routes = [
   {path: "" ,redirectTo: "/operators",pathMatch: "full"},
@@ -30,6 +31,7 @@ const routes: Routes = [
   {path: "pipe-first",component: PipeFirstComponent},
   {path: "find",component: FindComponent},
   {path: "filter",component: FilterComponent},
+  {path: "map",component: MapComponent},
 ];
 
 @NgModule({
