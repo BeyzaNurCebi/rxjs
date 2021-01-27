@@ -17,6 +17,7 @@ import { FilterComponent } from './operators/filtering-operators/filter/filter.c
 import { MapComponent } from './operators/transformation-operator/map/map.component';
 import { SubjectComponent } from './operators/subjects-operators/subject/subject.component';
 import { AsyncSubjectComponent } from './operators/subjects-operators/asyncSubject/asyncSubject.component';
+import { BehaviorSubjectComponent } from './operators/subjects-operators/behaviorSubject/behaviorSubject.component';
 
 const routes: Routes = [
   {path: "" ,redirectTo: "/operators",pathMatch: "full"},
@@ -36,6 +37,7 @@ const routes: Routes = [
   {path: "map",component: MapComponent},
   {path: "subject",component: SubjectComponent},
   {path: "asyncSubject",component: AsyncSubjectComponent},
+  {path: "behaviorSubject",component: BehaviorSubjectComponent},
 ];
 
 @NgModule({

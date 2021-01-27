@@ -37,7 +37,7 @@ export class SubjectComponent implements OnInit {
     mySubject.next(Math.random())
 
     mySubject.subscribe(val=>console.log("subject 3: "+val))
-    mySubject.next("yeni değer")
+   // mySubject.next("yeni değer")
 
     }
    
